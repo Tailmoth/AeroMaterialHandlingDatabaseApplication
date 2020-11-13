@@ -1,0 +1,13 @@
+C:\Users\Jterm\source\repos\AeroMaterialHandlingDatabaseApplication\bin\Debug\AeroMaterialHandlingDatabaseApplication.exe.config
+C:\Users\Jterm\source\repos\AeroMaterialHandlingDatabaseApplication\bin\Debug\AeroMaterialHandlingDatabaseApplication.exe
+C:\Users\Jterm\source\repos\AeroMaterialHandlingDatabaseApplication\bin\Debug\AeroMaterialHandlingDatabaseApplication.pdb
+C:\Users\Jterm\source\repos\AeroMaterialHandlingDatabaseApplication\obj\Debug\AeroMaterialHandlingDatabaseApplication.csprojAssemblyReference.cache
+C:\Users\Jterm\source\repos\AeroMaterialHandlingDatabaseApplication\obj\Debug\AeroMaterialHandlingDatabaseApplication.fLogIn.resources
+C:\Users\Jterm\source\repos\AeroMaterialHandlingDatabaseApplication\obj\Debug\AeroMaterialHandlingDatabaseApplication.Properties.Resources.resources
+C:\Users\Jterm\source\repos\AeroMaterialHandlingDatabaseApplication\obj\Debug\AeroMaterialHandlingDatabaseApplication.csproj.GenerateResource.cache
+C:\Users\Jterm\source\repos\AeroMaterialHandlingDatabaseApplication\obj\Debug\AeroMaterialHandlingDatabaseApplication.csproj.CoreCompileInputs.cache
+C:\Users\Jterm\source\repos\AeroMaterialHandlingDatabaseApplication\obj\Debug\AeroMaterialHandlingDatabaseApplication.exe
+C:\Users\Jterm\source\repos\AeroMaterialHandlingDatabaseApplication\obj\Debug\AeroMaterialHandlingDatabaseApplication.pdb
+C:\Users\Jterm\source\repos\AeroMaterialHandlingDatabaseApplication\obj\Debug\AeroMaterialHandlingDatabaseApplication.fEditPage.resources
+C:\Users\Jterm\source\repos\AeroMaterialHandlingDatabaseApplication\obj\Debug\AeroMaterialHandlingDatabaseApplication.fViewPage.resources
+C:\Users\Jterm\source\repos\AeroMaterialHandlingDatabaseApplication\obj\Debug\AeroMaterialHandlingDatabaseApplication.ListItem.resources
