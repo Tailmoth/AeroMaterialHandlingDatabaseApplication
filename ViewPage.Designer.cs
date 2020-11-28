@@ -38,7 +38,7 @@
             this.tbViewLongDescription = new System.Windows.Forms.TextBox();
             this.lblTags = new System.Windows.Forms.Label();
             this.btEdit = new System.Windows.Forms.Button();
-            this.lbViewTittle = new System.Windows.Forms.Label();
+            this.lbViewTitle = new System.Windows.Forms.Label();
             this.tbViewShortDescription = new System.Windows.Forms.TextBox();
             this.pbDisplayImage = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -97,7 +97,18 @@
             "Load Swing",
             "Swing Manager",
             "Harrington",
-            "Mini hand Chain hoist"});
+            "Mini hand Chain hoist",
+            "2 Button Flex Radio Control (Flex Duo)",
+            "PE Explosion Proof Control Panels",
+            "REMKE Flat Cable Grips",
+            "OSHA Webinar Screenshots",
+            "DISC Assessment",
+            "Customer Code Key",
+            "OSHA MHI Inspection Checklist",
+            "PE Swing Amplitute Manager",
+            "Gorbel Q2, iQ2 webinar",
+            "CX010-SS Mini Hand Chain Hoist",
+            "Wire Rope Reeving Explaination"});
             this.tbSearch.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.tbSearch.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.tbSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -174,7 +185,7 @@
             this.pnSearchResult.Controls.Add(this.tbViewLongDescription);
             this.pnSearchResult.Controls.Add(this.lblTags);
             this.pnSearchResult.Controls.Add(this.btEdit);
-            this.pnSearchResult.Controls.Add(this.lbViewTittle);
+            this.pnSearchResult.Controls.Add(this.lbViewTitle);
             this.pnSearchResult.Controls.Add(this.tbViewShortDescription);
             this.pnSearchResult.Controls.Add(this.pbDisplayImage);
             this.pnSearchResult.Controls.Add(this.groupBox2);
@@ -201,9 +212,10 @@
             this.lblTags.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTags.Location = new System.Drawing.Point(275, 471);
             this.lblTags.Name = "lblTags";
-            this.lblTags.Size = new System.Drawing.Size(138, 24);
+            this.lblTags.Size = new System.Drawing.Size(62, 24);
             this.lblTags.TabIndex = 14;
-            this.lblTags.Text = "Tags: SAMPLE";
+            this.lblTags.Text = "Tags: ";
+            this.lblTags.Click += new System.EventHandler(this.lblTags_Click);
             // 
             // btEdit
             // 
@@ -215,15 +227,15 @@
             this.btEdit.Text = "Edit";
             this.btEdit.UseVisualStyleBackColor = true;
             // 
-            // lbViewTittle
+            // lbViewTitle
             // 
-            this.lbViewTittle.AutoSize = true;
-            this.lbViewTittle.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbViewTittle.Location = new System.Drawing.Point(274, 31);
-            this.lbViewTittle.Name = "lbViewTittle";
-            this.lbViewTittle.Size = new System.Drawing.Size(61, 29);
-            this.lbViewTittle.TabIndex = 1;
-            this.lbViewTittle.Text = "Title";
+            this.lbViewTitle.AutoSize = true;
+            this.lbViewTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbViewTitle.Location = new System.Drawing.Point(274, 31);
+            this.lbViewTitle.Name = "lbViewTitle";
+            this.lbViewTitle.Size = new System.Drawing.Size(61, 29);
+            this.lbViewTitle.TabIndex = 1;
+            this.lbViewTitle.Text = "Title";
             // 
             // tbViewShortDescription
             // 
@@ -255,6 +267,7 @@
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // btNewEntry
             // 
@@ -341,7 +354,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.SplitContainer scDivide;
         private System.Windows.Forms.TextBox tbViewLongDescription;
-        private System.Windows.Forms.Label lbViewTittle;
+        private System.Windows.Forms.Label lbViewTitle;
         private System.Windows.Forms.PictureBox pbDisplayImage;
         private System.Windows.Forms.Button btNewEntry;
         private System.Windows.Forms.GroupBox groupBox2;
